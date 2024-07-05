@@ -9,14 +9,13 @@ dictmerge_one:
     BB: aa
 
 
-#dictmerge_interim: "{
-dictmerge_two: "{
+dictmerge_interim: "{
               {% for ak, av in abc.items() | list %}
               'G{{ ak }}': '{{ av.X }}',
               {% endfor %}
             }"
 
-#dictmerge_two: "{{ dictmerge_interim }}"
+dictmerge_two: "{{ dictmerge_interim }}"
 
 dictmerge_interim2:
   Ga: a

@@ -14,3 +14,7 @@
         var: dictmerge_3
     - debug:
         var: dictmerge_4
+    - ansible.builtin.set_fact:
+        dictmerge_two: "{{ dictmerge_two | combine(dictmerge_interim) }}"
+    - debug:
+        var: dictmerge_two
