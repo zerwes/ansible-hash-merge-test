@@ -1,0 +1,15 @@
+---
+
+abc:
+  a:
+    X: a
+    Y: A
+    Z: aaa
+  b:
+    X: B
+    Y: b
+    Z: bBb
+  c:
+    X: ce
+    Y: CE
+    Z: CcC

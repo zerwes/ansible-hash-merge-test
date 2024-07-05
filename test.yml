@@ -1,0 +1,16 @@
+---
+
+- name: debug
+  hosts: all
+  gather_facts: false
+  tasks:
+    - debug:
+        var: dictmerge_one
+    - debug:
+        var: dictmerge_interim
+    - debug:
+        var: dictmerge_two
+    - debug:
+        var: dictmerge_3
+    - debug:
+        var: dictmerge_4

@@ -1,0 +1,21 @@
+---
+
+dictmerge_one:
+  HA:
+    AA: aa
+    BB: bb
+  HB:
+    AA: bb
+    BB: aa
+
+dictmerge_two:
+  HA: aaa
+  HB: bbb
+
+dictmerge_3:
+  HA: aaa
+  HB: bbb
+
+dictmerge_4:
+  HA: aaa
+  HB: bbb

@@ -1,0 +1,31 @@
+---
+
+dictmerge_one:
+  GA:
+    AA: aa
+    BB: bb
+  GB:
+    AA: bb
+    BB: aa
+
+
+#dictmerge_interim: "{
+dictmerge_two: "{
+              {% for ak, av in abc.items() | list %}
+              'G{{ ak }}': '{{ av.X }}',
+              {% endfor %}
+            }"
+
+#dictmerge_two: "{{ dictmerge_interim }}"
+
+dictmerge_interim2:
+  Ga: a
+  Gb: B
+  Gc: ce
+
+dictmerge_3: "{{ dictmerge_interim2 }}"
+
+dictmerge_4:
+  Ga: a
+  Gb: B
+  Gc: ce
